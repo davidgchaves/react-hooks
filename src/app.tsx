@@ -5,10 +5,10 @@ import { MyComponent3 } from "./03-component-did-load";
 
 export const App = () => {
   return (
-  <>
-    <MyComponent />
-    <MyComponent2 />
-    <MyComponent3 />
-  </>
+    <>
+      <MyComponent />
+      <MyComponent2 />
+      <MyComponent3 />
+    </>
   );
 };

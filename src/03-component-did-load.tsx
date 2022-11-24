@@ -4,7 +4,7 @@ export const MyComponent3: React.FC = () => {
   const [myName, setMyName] = React.useState("");
 
   React.useEffect(() => {
-    setMyName('Ada Lovelace')
+    setMyName("Ada Lovelace");
   }, []);
 
   return (
@@ -13,7 +13,9 @@ export const MyComponent3: React.FC = () => {
       <input
         type="text"
         value={myName}
-        onChange={e => {setMyName(e.target.value)}}
+        onChange={(e) => {
+          setMyName(e.target.value);
+        }}
       />
     </>
   );

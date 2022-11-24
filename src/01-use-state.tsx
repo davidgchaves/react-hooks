@@ -9,9 +9,10 @@ export const MyComponent: React.FC = () => {
       <input
         type="text"
         value={myName}
-        onChange={e => {setMyName(e.target.value)}}
-     />
+        onChange={(e) => {
+          setMyName(e.target.value);
+        }}
+      />
     </>
-
   );
 };
