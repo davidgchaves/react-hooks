@@ -4,6 +4,7 @@ import { MyComponent2 } from "./02-use-state-object";
 import { MyComponent3 } from "./03-component-did-load";
 import { MyComponent4 } from "./04-component-unmount";
 import { MyComponent5 } from "./05-component-update-render";
+import { MyComponent6 } from "./06-ajax-field-change";
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
       <MyComponent3 />
       <MyComponent4 />
       <MyComponent5 />
+      <MyComponent6 />
     </>
   );
 };
