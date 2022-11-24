@@ -1,6 +1,6 @@
 import React from "react";
 
-export const MyComponent: React.FC = () => {
+export const MyComponent1: React.FC = () => {
   const [myName, setMyName] = React.useState("Ada Lovelace");
 
   return (
