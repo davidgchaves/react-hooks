@@ -8,6 +8,8 @@ import { MyComponent6 } from "./06-ajax-field-change";
 import { MyComponent7 } from "./07-custom-hook";
 import { MyComponent8 } from "./08-pure-component";
 import { MyComponent9 } from "./09-pure-component-callback";
+import { AComponent } from "./a-component";
+import { UserContextExampleProvider } from "./11-use-context";
 
 export const App = () => {
   return (
@@ -21,6 +23,9 @@ export const App = () => {
       <MyComponent7 />
       <MyComponent8 />
       <MyComponent9 />
+      <UserContextExampleProvider>
+        <AComponent />
+      </UserContextExampleProvider>
     </>
   );
 };
