@@ -7,6 +7,7 @@ import { MyComponent5 } from "./05-component-update-render";
 import { MyComponent6 } from "./06-ajax-field-change";
 import { MyComponent7 } from "./07-custom-hook";
 import { MyComponent8 } from "./08-pure-component";
+import { MyComponent9 } from "./09-pure-component-callback";
 
 export const App = () => {
   return (
@@ -19,6 +20,7 @@ export const App = () => {
       <MyComponent6 />
       <MyComponent7 />
       <MyComponent8 />
+      <MyComponent9 />
     </>
   );
 };
